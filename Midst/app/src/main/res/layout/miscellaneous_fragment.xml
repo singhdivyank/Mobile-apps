@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.miscellaneous">
+
+    <Button
+        android:id="@+id/placement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_100sdp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:text="Placements"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/admission"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="@+id/hostels"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="@+id/video"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:text="Admission Procedure"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/hostels"
+        android:layout_width="155dp"
+        android:layout_height="53dp"
+        android:layout_above="@+id/placement"
+        android:layout_below="@+id/admission"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:text="Accomodation" />
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="364dp" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.faculty">
+
+
+    <EditText
+        android:id="@+id/emp_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginLeft="@dimen/_119sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginEnd="@dimen/_80sdp"
+        android:layout_marginRight="@dimen/_134sdp"
+        android:gravity="center_horizontal"
+        android:text="ENTER EMPLOYEE ID"
+        android:textAlignment="gravity"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/stud_details"
+        android:layout_width="157dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="@+id/emp_number"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_115sdp"
+        android:layout_marginLeft="@dimen/_143sdp"
+        android:layout_marginTop="@dimen/_412sdp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="@dimen/_112sdp"
+        android:layout_marginBottom="@dimen/_60sdp"
+        android:text="STUDENT DETAILS"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/emp_confirm"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emp_number"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_56sdp"
+        android:layout_marginLeft="@dimen/_56sdp"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_marginEnd="@dimen/_64sdp"
+        android:layout_marginRight="@dimen/_64sdp"
+        android:layout_marginBottom="-220dp"
+        android:gravity="center_horizontal"
+        android:text="DISPLAY DETAILS"
+        android:textAlignment="gravity"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/stud_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emp_confirm"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_90sdp"
+        android:layout_marginLeft="@dimen/_101sdp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginBottom="110dp"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="ENTER STUDENT NAME"
+        android:textAlignment="gravity"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emp_number"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginRight="143dp"
+        android:gravity="center_horizontal"
+        android:text="VERIFY"
+        android:textAlignment="gravity"
+        android:textSize="16dp" />
+
+</RelativeLayout>

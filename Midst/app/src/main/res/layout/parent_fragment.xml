@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.parent">
+
+    <EditText
+        android:id="@+id/admission_number"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:gravity="center_horizontal"
+        android:text="ENTER ADMISSION NUMBER"
+        android:textAlignment="gravity"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/fee"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_100sdp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginBottom="@dimen/_100sdp"
+        android:text="PAY FEES" />
+
+    <TextView
+        android:id="@+id/parent_confirm"
+        android:layout_width="254dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/fee"
+        android:layout_below="@+id/confirm_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:gravity="center_horizontal"
+        android:text="DISPLAY DETAILS"
+        android:textAlignment="gravity"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/confirm_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@+id/admission_number"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:text="CONFIRM"
+        android:textSize="16dp"/>
+
+</RelativeLayout>

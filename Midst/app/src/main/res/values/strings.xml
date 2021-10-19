@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Midst</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Thapar Institute of Engineering and Technology</string>
+    <string name="nav_header_subtitle">Dera Bassi campus</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_parent">Parents</string>
+    <string name="menu_student">Students</string>
+    <string name="menu_faculty">Faculty</string>
+    <string name="menu_miscellaneous">Miscellaneous</string>
+</resources>

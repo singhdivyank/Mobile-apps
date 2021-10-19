@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.project.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_parent" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_parent"
+        android:name="com.example.project.ui.home.parent"
+        android:label="@string/menu_parent"
+        tools:layout="@layout/parent_fragment">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_student"
+        android:name="com.example.project.ui.home.student"
+        android:label="@string/menu_student"
+        tools:layout="@layout/student_fragment" />
+
+    <fragment
+        android:id="@+id/nav_faculty"
+        android:name="com.example.project.ui.home.faculty"
+        android:label="@string/menu_faculty"
+        tools:layout="@layout/faculty_fragment" />
+
+    <fragment
+        android:id="@+id/nav_miscellaneous"
+        android:name="com.example.project.ui.home.miscellaneous"
+        android:label="@string/menu_miscellaneous"
+        tools:layout="@layout/miscellaneous_fragment" />
+</navigation>

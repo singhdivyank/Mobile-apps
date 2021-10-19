@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.student">
+
+    <EditText
+        android:id="@+id/roll_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="@dimen/_62sdp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        android:gravity="center_horizontal"
+        android:text="ENTER ROLL NUMBER"
+        android:textAlignment="gravity"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/curriculum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/student_confirm"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_marginEnd="@dimen/_80sdp"
+        android:layout_marginRight="124dp"
+        android:text="CURRICULUM DETAILS" />
+
+    <Button
+        android:id="@+id/faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curriculum"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="@+id/curriculum"
+        android:layout_marginStart="@dimen/_100sdp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:text="FACULTY DETAILS" />
+
+    <Button
+        android:id="@+id/books"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_100sdp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:text="BOOK STATUS" />
+
+    <TextView
+        android:id="@+id/student_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/std_confirm"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="@+id/roll_number"
+        android:layout_marginStart="@dimen/_90sdp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="@dimen/_86sdp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginRight="143dp"
+        android:gravity="center_horizontal"
+        android:text="DISPLAY DETAILS"
+        android:textAlignment="gravity"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/std_confirm"
+        android:layout_width="137dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/roll_number"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_100sdp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:text="CONFIRM" />
+
+</RelativeLayout>
