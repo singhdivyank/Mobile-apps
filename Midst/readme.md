@@ -1,6 +1,6 @@
 # Platform- Native Android
 
-The application is currently unavailable on PlayStore. For downloading purposes, the [**apk**](https://drive.google.com/file/d/1v7au472FQnJutchA7jhInOL7ABhmFaF1/view?usp=sharing) has been provided.
+The application is currently unavailable on PlayStore. For downloading purposes, the [**apk**](https://drive.google.com/file/d/1vlTUJaBLy-GUs83-EM-3f9rVWW_ptIbp/view?usp=sharing) has been provided.
 
 ## About
 An android application focused at answering academic and admission related queries of various users - parents, students, faculty and miscellaneous users. Developed for TIET, Dera Bassi campus
